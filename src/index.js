@@ -1,8 +1,7 @@
 import _ from "lodash";
 
-/* eslint-disable */
-export default (firts, second) => {
-  const last = _.last(['one', 'two']);
+
+export default (massive) => {
+  const last = _.last(massive);
   return last;
 };
-/* eslint-enable */
